@@ -10,6 +10,7 @@ image_dir = test_dir / "images"
 result_dir = test_dir / "results"
 reference_dir = test_dir / "references"
 benchmark_dir = test_dir / "benchmark"
+validation_dir = test_dir / "vaildation"
 
 default_checkpoint = {
     SDVersion.sd15: next(iter(default_checkpoints[0].files)).name,
